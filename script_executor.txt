@@ -1,0 +1,5 @@
+a-	crontab -e
+then write that line inside it : 
+10 * * * * python3 /home/itversity/itversity-material/project/twitter_pipeline_script.py >/dev/null 2>&1
+
+This will run all the pipline every 10 minute to extract data in last 10 minute
